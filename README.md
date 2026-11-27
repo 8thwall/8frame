@@ -1,5 +1,11 @@
 # 8Frame
 
+> [!WARNING]
+> **8-Frame is deprecated and no longer maintained.** 8th Wall now works with the official
+> [A-Frame](https://aframe.io) releases. Use A-Frame 1.8.0 or later with XRExtras 2.0.0 or later
+> and the 8th Wall Engine (`@8thwall/engine-binary`) 2.0.0 or later. To update an existing
+> project, see [Migrate from 8-Frame to A-Frame](https://8thwall.org/docs/engine/guides/aframe-migration).
+
 8Frame is 8th Wall's modified version of AFrame.  It has the following changes
 - 8Frame exposes properties in THREE.js's `WebGLRenderer` so that it's compatible with MRCS HoloVideoObject.
 - 8Frame improves AFrame's compatibility with XR8.
